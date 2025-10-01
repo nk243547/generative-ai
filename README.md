@@ -1,6 +1,6 @@
-#Building-Generative-AI-Applications
+Building-Generative-AI-Applications
 
-#Overview
+Overview
 
 This repository houses building of Gen AI Applications in Jaseci Ecosystem, featuring an AI-powered Personal Budget Assistant that provides intelligent financial analysis and recommendations.
 
@@ -8,7 +8,7 @@ What is Jaseci Ecosystem?
 
 Jaseci serves as the implementation stack for the Jac programming language, and is packaged as a simple Python library. This runtime stack enables Jac code to execute with its enhanced features while maintaining the seamless Python interoperability that makes the language particularly accessible to Python developers.
 
-#What is Jac?
+What is Jac?
 
 Jac is a new kind of programming language. It's built on top of Python, so you can still use Python code and tools with it. But Jac adds some new features that make programming easier and smarter, especially for modern tasks like AI development.
 
@@ -64,12 +64,16 @@ Real-time Analysis - Instant budget health assessment
 How to Run
 Install the byLLM plugin and dependencies:
 
-#bash
+bash
+
 pip install -r requirements.txt
+
 Set your Gemini API key as an environment variable:
 
-#bash
+bash
+
 export GEMINI_API_KEY="YOUR_API_KEY_HERE"
+
 Run the Jac Program:
 
 
@@ -77,7 +81,9 @@ jac run budget.jac
 
 bash
 jac run budget.jac
-#Example Output
+
+Example Output
+
 text
 📊 Generating budget analysis...
 
@@ -195,12 +201,16 @@ Based on this month's variances and patterns, and a savings target of $500:
 
 ==================================================
 💡 Track consistently for better financial control!
+
+
 Program Files
+
 budget.jac - Main AI-powered budget assistant with Gemini integration
 
 requirements.txt - Python dependencies
 
-#Financial Categories Tracked
+Financial Categories Tracked
+
  Rent/Mortgage
 
  Groceries
@@ -217,7 +227,8 @@ requirements.txt - Python dependencies
 
  Savings Goals
 
-#AI-Powered Features
+AI-Powered Features
+
 Smart Analysis: AI identifies spending patterns and financial anomalies
 
 Personalized Tips: Tailored recommendations based on your specific financial situation
@@ -228,10 +239,12 @@ Risk Assessment: Identifies potential financial risks in your spending habits
 
 Pattern Recognition: Detects recurring spending behaviors across categories
 
-#Disclaimer
+Disclaimer
+
 This information is not a substitute for professional financial advice. Always consult with a qualified financial advisor for personalized financial planning.
 
-#Technical Requirements
+Technical Requirements
+
 Python 3.8+
 
 Jac Language Runtime
