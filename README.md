@@ -73,135 +73,129 @@ Set your Gemini API key as an environment variable:
 
 **bash**
 
-export GEMINI_API_KEY="YOUR_API_KEY_HERE"
+```export GEMINI_API_KEY="YOUR_API_KEY_HERE"```
 
 **Run the Jac Program:**
 
-jac run budget.jac
 
 **bash**
 
-jac run budget.jac
+```jac run budget.jac```
 
 **Example Output**
 
-text
-📊 Generating budget analysis...
+ADVANCED BUDGET TRACKER
+==================================================
 
+ MONTHLY BUDGET
+-------------------------
+Monthly income (Kshs): 20000
+Rent/Mortgage budget (Kshs): 1000
+Groceries budget (Kshs): 1000
+Dining out budget (Kshs): 1000
+Transportation budget (Kshs): 1000
+Utilities budget (Kshs): 1000
+Entertainment budget (Kshs): 1000
+Shopping budget (Kshs): 1000
+Monthly savings target (Kshs): 5000
+
+ ACTUAL SPENDING THIS MONTH
+-------------------------
+Actual rent spent (Kshs): 2000
+Actual groceries spent (Kshs): 500
+Actual dining spent (Kshs): 1000
+Actual transportation spent (Kshs): 900
+Actual utilities spent (Kshs): 900
+Actual entertainment spent (Kshs): 900
+Actual shopping spent (Kshs): 900
+
+📊 Generating budget analysis...
+ 
 ==================================================
 📈 BUDGET TRACKING REPORT
 ==================================================
 
-📋 BUDGET VARIANCE ANALYSIS:
+ BUDGET VARIANCE ANALYSIS:
 ------------------------------
 ```
 Budget Variance Analysis:
 
-Budgeted vs Actual:
-- Rent: $2000.00 vs $2500.00
-- Groceries: $1000.00 vs $900.00
-- Dining: $500.00 vs $400.00
-- Transportation: $500.00 vs $400.00
-- Utilities: $500.00 vs $400.00
-- Entertainment: $500.00 vs $400.00
-- Shopping: $500.00 vs $400.00
+Total Budgeted: Kshs8000.0
+Total Actual: Kshs7100.0
+Total Variance: Kshs900.0 (11.25%)
 
-1. Total Budgeted vs Total Actual:
-   - Total Budgeted: $5500.00
-   - Total Actual: $5400.00
+Category Variances:
+Rent: Kshs-1000.0 (-100.00%)
+Groceries: Kshs500.0 (50.00%)
+Dining: Kshs0.0 (0.00%)
+Transportation: Kshs100.0 (10.00%)
+Utilities: Kshs100.0 (10.00%)
+Entertainment: Kshs100.0 (10.00%)
+Shopping: Kshs100.0 (10.00%)
 
-2. Variance for Each Category:
-   - Rent: $500.00 (25.00%)
-   - Groceries: -$100.00 (-10.00%)
-   - Dining: -$100.00 (-20.00%)
-   - Transportation: -$100.00 (-20.00%)
-   - Utilities: -$100.00 (-20.00%)
-   - Entertainment: -$100.00 (-20.00%)
-   - Shopping: -$100.00 (-20.00%)
+Over-Budget Categories:
+Rent
 
-3. Over-Budget Categories:
-   - Rent
+Under-Budget Categories:
+Groceries, Transportation, Utilities, Entertainment, Shopping
 
-4. Under-Budget Categories:
-   - Groceries
-   - Dining
-   - Transportation
-   - Utilities
-   - Entertainment
-   - Shopping
-
-5. Actual Savings Achieved:
-   - Total Variance (Savings): -$100.00
+Actual Savings Achieved: Kshs900.0
 ```
 
-🔍 SPENDING INSIGHTS:
+ SPENDING INSIGHTS:
 ------------------------------
-Here's a breakdown of your spending insights:
+```
+Spending Insights:
 
-**1. Spending Patterns and Trends:**
+- Income: Kshs20000.0
+- Total budgeted expenses: Kshs8000.0
+- Total actual expenses: Kshs7100.0
+- Savings target: Kshs5000.0
 
-*   **Overspending:** You exceeded your budget in the Rent category.
-*   **Underspending:** You spent less than budgeted in Groceries, Dining, Transportation, Utilities, Entertainment, and Shopping.
-*   **Overall:** Total actual expenses were slightly lower than the total budgeted expenses.
+Analysis:
+1. Spending patterns and trends: Spending is generally below budget across most categories except for rent, which is significantly over budget.
+2. Most accurate budget categories: Dining is the most accurate, with no variance between budgeted and actual spending.
+3. Most volatile categories: Rent is the most volatile, with actual spending 100% over budget.
+4. Overall budget adherence: Overall, spending is within budget, with a total variance of Kshs900.0 (11.25%) under budget.
+5. Savings rate achievement: The actual savings achieved is Kshs900.0. The target savings rate was not achieved.
+```
 
-**2. Most Accurate Budget Categories:**
-
-*   Groceries were the most accurate, with only a 10% difference between budgeted and actual spending.
-
-**3. Most Volatile Categories:**
-
-*   Rent was the most volatile, exceeding the budget by 25%.
-*   Dining, Transportation, Utilities, Entertainment, and Shopping had similar volatility, each under budget by 20%.
-
-**4. Overall Budget Adherence:**
-
-*   You demonstrated good budget adherence with total actual expenses only slightly lower than the total budgeted expenses. However, this was achieved by underspending in multiple categories to offset overspending in Rent.
-
-**5. Savings Rate Achievement:**
-
-*   You did not achieve your savings target.
-*   You were $100 short of your $500 savings target.
-
-
-
-🎯 NEXT MONTH RECOMMENDATIONS:
+ NEXT MONTH RECOMMENDATIONS:
 ------------------------------
-## Budget Adjustment Recommendations for Next Month:
+## Budget Adjustments Recommendation for Next Month:
 
-Based on this month's variances and patterns, and a savings target of $500:
+Based on this month's variances and patterns, here are some suggested budget adjustments:
 
 **1. Specific Budget Increases/Decreases:**
 
-*   **Rent:** Increase from $2000 to $2500 to reflect actual spending.
-*   **Groceries:** Decrease from $1000 to $900, or maintain at $1000 if anticipating increased need.
-*   **Dining:** Decrease from $500 to $400.
-*   **Transportation:** Decrease from $500 to $400.
-*   **Utilities:** Decrease from $500 to $400.
-*   **Entertainment:** Decrease from $500 to $400.
-*   **Shopping:** Decrease from $500 to $400.
-*   **Savings:** Re-evaluate savings strategy to ensure $500 target is met, potentially by allocating a specific amount immediately after income is received.
+*   **Rent:** Increase the budget to Kshs2000.0 to reflect actual spending.
+*   **Groceries:** Decrease the budget to Kshs500.0, aligning with actual spending.
+*   **Transportation:** Decrease the budget to Kshs900.0.
+*   **Utilities:** Decrease the budget to Kshs900.0.
+*   **Entertainment:** Decrease the budget to Kshs900.0.
+*   **Shopping:** Decrease the budget to Kshs900.0.
 
 **2. New Category Limits:**
 
-*   Consider setting a hard limit on Rent to avoid overspending. Explore options to reduce rent costs if consistently exceeding the budget.
+*   Consider setting sub-limits within categories (e.g., "Eating Out" within "Dining") to better control spending.
 
 **3. Spending Habit Changes:**
 
-*   **Rent:** Explore options to lower rent costs (negotiate with landlord, find a cheaper place).
-*   **Underspent Categories:** Be mindful of underspending. While saving money is good, consistently underspending may indicate an inflated budget. Re-evaluate needs in these areas.
-*   **Savings:** Automate savings by setting up a direct transfer to a savings account each month.
+*   **Rent:** Negotiate with your landlord.
+*   **Groceries:** Plan meals ahead of time, create a shopping list, and stick to it.
+*   **All Categories:** Track your spending daily to stay aware of where your money is going. Implement a "waiting period" (e.g., 24 hours) before making non-essential purchases.
 
 **4. Ways to Improve Budget Accuracy:**
 
-*   **Track Spending Closely:** Use a budgeting app or spreadsheet to monitor spending in real-time.
-*   **Review Past Spending:** Analyze past spending habits to identify trends and adjust budget categories accordingly.
-*   **Adjust Budget Regularly:** Review and adjust the budget monthly to reflect changes in income, expenses, or savings goals.
-*   **Categorize Transactions Accurately:** Ensure all transactions are categorized correctly to get an accurate picture of spending.
-*   **Account for Irregular Expenses:** Include a category for irregular expenses (e.g., car repairs, gifts) and allocate funds accordingly.
+*   **Track all expenses:** Use a budgeting app or spreadsheet to record every transaction.
+*   **Review regularly:** At the end of each week, compare your actual spending to your budget and make adjustments as needed.
+*   **Be realistic:** Don't underestimate your spending. It's better to overestimate and have money left over than to run out.
+*   **Adjust for irregular expenses:** Factor in occasional expenses like gifts, travel, or car maintenance.
+*   **Savings:** Savings target was not achieved. Prioritize and consider increasing savings contributions from under-spent categories to meet the Kshs5000.0 goal.
 
 
 ==================================================
-💡 Track consistently for better financial control!
+ Track consistently for better financial control!
 
 
 **Program Files**
@@ -246,10 +240,10 @@ This information is not a substitute for professional financial advice. Always c
 
 **Technical Requirements**
 
-Python 3.8+
+```Python 3.8+```
 
-Jac Language Runtime
+```Jac Language Runtime```
 
-Gemini API Key (for AI features)
+```Gemini API Key (for AI features)```
 
-Internet connection (for AI model access)
+```Internet connection (for AI model access)```
