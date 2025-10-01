@@ -67,7 +67,7 @@ Install the byLLM plugin and dependencies:
 
 **bash**
 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 Set your Gemini API key as an environment variable:
 
